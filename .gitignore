@@ -1,0 +1,21 @@
+# 1. Байт-код и кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 2. Виртуальные окружения
+venv/
+.venv/
+env/
+
+# 3. Настройки сред разработки (IDE)
+.vscode/          # Исключения для VS Code
+.idea/            # Исключения для PyCharm / JetBrains
+*.iml             # Файлы модулей PyCharm
+
+# 4. Локальные переменные и ключи (если в будущем добавите файл .env)
+.env
+
+# 5. Системные файлы ОС (Windows / macOS)
+Thumbs.db
+.DS_Store
